@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 099e1b7b2b8eefe4297aab2f988d5d25, type: 3}
+  m_Name: CharacterSheet
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Data/Data.xlsx
+  WorksheetName: CharacterSheet
+  dataArray:
+  - id: 10101
+    name: "\uBCA4\uB9AC\uC544\uB098"
+    title: "\uAE30\uC0AC"
+    image: Benriana01
+    description: "\uBCA4\uB9AC\uC544\uB098_\uAE30\uBCF8\uD45C\uC815"
+  - id: 10102
+    name: "\uBCA4\uB9AC\uC544\uB098"
+    title: "\uAE30\uC0AC"
+    image: Benriana02
+    description: "\uBCA4\uB9AC\uC544\uB098_\uB208 \uAC10\uB294 \uD45C\uC815"
+  - id: 10103
+    name: "\uBCA4\uB9AC\uC544\uB098"
+    title: "\uAE30\uC0AC"
+    image: benriana03
+    description: "\uBCA4\uB9AC\uC544\uB098_\uC6B8\uBA39\uAC70\uB9AC\uB294 \uD45C\uC815"
+  - id: 10201
+    name: "\uB808\uC774\uB098"
+    title: "\uC0AC\uC2E0"
+    image: Reina01
+    description: "\uB808\uC774\uB098_\uAE30\uBCF8\uD45C\uC815"
+  - id: 10202
+    name: "\uB808\uC774\uB098"
+    title: "\uC0AC\uC2E0"
+    image: Reina02
+    description: "\uB808\uC774\uB098_\uAC71\uC815\uD558\uB294 \uD45C\uC815"
+  - id: 10203
+    name: "\uB808\uC774\uB098"
+    title: "\uC0AC\uC2E0"
+    image: Reina03
+    description: "\uB808\uC774\uB098_\uB208 \uAC10\uB294 \uD45C\uC815"
