@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3242010eb4afa7d4bacc010da0e05696, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Data/Data.xlsx
+  WorksheetName: Dialogue
+  dataArray:
+  - id: 1
+    bgimage: MainRoom00
+    character: 10201
+    position: 2
+    dialogue: "\uC5B4\uB5A4\uAC00? \uBD84\uC2E0\uC774\uB77C\uACE0\uB294 \uD558\uC9C0\uB9CC,
+      \uADF8 \uD798\uC740 \uB098\uC640 \uAC19\uB2E4\uB124"
+  - id: 2
+    bgimage: Out02
+    character: 10201
+    position: 2
+    dialogue: "\uD56D\uBCF5\uC744 \uAD8C\uD558\uACE0 \uC2F6\uB2E4\uB9CC\u2026"
+  - id: 3
+    bgimage: Out03
+    character: 10201
+    position: 2
+    dialogue: "\uB09C \uC790\uB124 \uC131\uACA9\uC744 \uBAA8\uB974\uC9C0 \uC54A\uC544."
+  - id: 4
+    bgimage: Out04
+    character: 10201
+    position: 2
+    dialogue: "\uC790\uB124\uB294 \uD56D\uBCF5\uD558\uC9C0 \uC54A\uC744\uD14C\uC9C0\u2026"
+  - id: 5
+    bgimage: Out05
+    character: 10201
+    position: 2
+    dialogue: "\uB9C8\uC74C\uC758 \uC900\uBE44\uB294 \uB418\uC5C8\uB098?"
+  - id: 6
+    bgimage: Out06
+    character: 10201
+    position: 2
+    dialogue: "\u2026\uC88B\uB124"
+  - id: 7
+    bgimage: Out07
+    character: 10201
+    position: 2
+    dialogue: "\uC2DC\uC791\uD558\uC138."

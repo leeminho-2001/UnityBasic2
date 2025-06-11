@@ -12,4 +12,32 @@ public class SData : SingletonBehabiour<SData>
         return null;
     }
 
+    [SerializeField] Dialogue dialogueDatas; // DataTableÀÇ µ¥ÀÌÅÍ ÅÇ Name
+    public static DialogueData[] DialogueData { get { return Instance.dialogueDatas.dataArray; } } // µ¥ÀÌÅÍ ÅÇ Name + Data
+    public static DialogueData GetDialogueData(int _id)
+    {
+        for (int i = 0; i < DialogueData.Length; i++)
+        {
+            if (DialogueData[i].ID == _id)
+            {
+                return DialogueData[i];
+            }
+        }
+        return null;
+    }
+
+    [SerializeField] CharacterSheet characterDatas; // DataTableÀÇ µ¥ÀÌÅÍ ÅÇ Name
+    public static CharacterSheetData[] CharacterData { get { return Instance.characterDatas.dataArray; } } // µ¥ÀÌÅÍ ÅÇ Name + Data
+    public static CharacterSheetData GetCharacterData(int _id)
+    {
+        for (int i = 0; i < CharacterData.Length; i++)
+        {
+            if (CharacterData[i].ID == _id)
+            {
+                return CharacterData[i];
+            }
+        }
+        return null;
+    }
+
 }
